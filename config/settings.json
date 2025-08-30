@@ -1,0 +1,67 @@
+{
+  "app": {
+    "always_on_top": false,
+    "theme": "default",
+    "transparency": 1,
+    "window_height": 600,
+    "window_width": 1024,
+    "window_x": 100,
+    "window_y": 100
+  },
+  "capture": {
+    "default_source": "screen",
+    "frame_rate": 45,
+    "quality": "medium",
+    "screen": {
+      "capture_cursor": true,
+      "height": 1080,
+      "monitor_index": 1,
+      "width": 1920,
+      "x": 0,
+      "y": 0
+    },
+    "webcam": {
+      "auto_exposure": true,
+      "brightness": 0.5,
+      "contrast": 0.5,
+      "device_index": 0,
+      "fps": 30,
+      "resolution": {
+        "height": 480,
+        "width": 640
+      }
+    },
+    "window": {
+      "capture_cursor": true,
+      "follow_window": true,
+      "include_borders": false,
+      "window_name": ""
+    }
+  },
+  "display": {
+    "overlay": {
+      "always_on_top": true,
+      "borderless": true,
+      "height": 300,
+      "transparency": 0.5,
+      "width": 400,
+      "x": 100,
+      "y": 100
+    },
+    "overlay_mode": false,
+    "scaling_mode": "stretch"
+  },
+  "performance": {
+    "cpu_limit_percent": 80,
+    "enable_frame_dropping": true,
+    "max_frame_buffer": 3,
+    "memory_limit_mb": 512,
+    "target_fps": 30
+  },
+  "ui": {
+    "control_panel_visible": true,
+    "hotkeys_enabled": true,
+    "show_fps": false,
+    "show_stats": false
+  }
+}
